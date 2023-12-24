@@ -1,0 +1,57 @@
+.container {
+    width: 600px;
+    height: 400px;
+    border: 3px solid #F19C33;
+    margin: 10px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch ;
+    align-content: stretch;
+}
+
+.container div {
+     width: 120px;
+     height: 120px;
+     background-color: #D94B25;
+     margin: 5px;
+     color: aliceblue;
+     line-height: 120px;
+     text-align: center;
+     font-size: 20px;
+}
+
+.container div.satu { 
+    order: 1; 
+    /* flex: 3; */
+}
+
+.dua { 
+    order: 6; 
+}
+
+.tiga { 
+    order: 1; 
+}
+
+.empat { 
+    order: 5; 
+}
+
+.lima { 
+    order: 4; 
+}
+
+.enam { 
+    order: 3; 
+}
+
+.container div.tujuh { 
+    order: 7; 
+    /* flex: 2; */
+}
+
+

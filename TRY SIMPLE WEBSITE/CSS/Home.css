@@ -1,0 +1,213 @@
+/* prefix */
+/* 1. shouliprefix.com */
+/* 2. caniuse.com */
+/* 3. pleeease.io.play */
+/* 4. plugin emmet */
+
+@font-face {
+    font-family: 'robotoregular';
+    src:url('Roboto-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:  rgb(15, 23, 42);
+}
+
+/* navHome */
+.container {
+    max-width: 960px;
+    height: 100%;
+    margin: 50px auto;
+    background-color:  rgb(30, 41, 59);
+    border-radius: 8px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.twitter {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/twitter.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: inline-block;
+    position: absolute;
+    top: -13px;
+    right: -14px;
+}
+
+ .title {
+    margin-left: 10px;
+    font-size: 20px;
+    color: rgb(203, 213, 225);
+ }
+
+.header {
+    padding: 10px;
+    color: rgb(203, 213, 225);
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    font-weight: 550;
+    color: rgb(203, 213, 225);
+    transition: 0.4s;
+}
+
+.header a:hover {
+    background-color: lightskyblue;
+    color: rgb(203, 213, 225);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.gambar {
+    height: 400px;
+    width: 920px;
+    margin: auto;
+    background-image: url(../img/tokyo.jfif);
+    background-size: cover;
+    background-position: 0 -110px;
+    border-radius: 5px;
+}
+
+.main .penulis {
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.main h2 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.main .teks {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 180%;
+    color: rgb(203, 213, 225);
+    font-family: system-ui;
+}
+
+.main {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    width: 600px;
+    float: left;
+}
+
+.social-media {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.social-media i {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(51, 65, 85);
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    line-height: 50px;
+    transition: all 0.3s ease-out;
+}
+
+.social-media ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+
+.social-media i {
+    transition: all 0.3s ease-out;
+}
+
+.social-media i:hover {
+    background-color: lightskyblue;
+    border-radius: 50%;
+}
+
+/* sidebarHome */
+.sidebar {
+    width: 310px;
+    float: right;
+    padding-right: 10px;
+}
+
+.sidebar h2 {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sidebar img {
+    width: 85px;
+    height: 85px;
+    margin-right: 13px;
+    margin-top: 13px;
+    border-radius: 5px;
+    float: left;
+}
+
+.sidebar p {
+    margin-top: 10px;
+    font: 14px/18px system-ui;
+    text-align: justify;
+    line-height: 180%;
+}
+
+/* footerHome */
+.footer {
+    background-color:  rgb(15, 23, 42);
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    zoom: 1;
+}

@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bungkus1 {
+    margin: 20px;
+    padding: 20px;
+    width: 900px;
+    border: 3px solid #D94B25;
+    overflow: auto;
+}
+
+.bungkus1 .teks1 {
+    color: #D94B25;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.kotak1 {
+    width: 200px;
+    height: 200px;
+    background-color: #F19C33;
+}
+
+.kotak2 {
+    width: 200px;
+    height: 200px;
+    background-color: #D94B25;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+.kotak3 {
+    width: 200px;
+    height: 200px;
+    background-color: #138c82;
+}
+
+.bungkus2 {
+    margin: 20px;
+    padding: 20px;
+    width: 900px;
+    border: 3px solid #D94B25;
+    overflow: auto;
+    position: relative;
+}
+
+.bungkus2 .teks2 {
+    color: #D94B25;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.kotak4 {
+    width: 200px;
+    height: 200px;
+    background-color: #F19C33;
+}
+
+.kotak5 {
+    width: 200px;
+    height: 200px;
+    background-color: #D94B25;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.kotak6 {
+    width: 200px;
+    height: 200px;
+    background-color: #138c82;
+}
+
+.bungkus3 {
+    margin: 20px;
+    padding: 20px;
+    width: 900px;
+    border: 3px solid #D94B25;
+    overflow: auto;
+}
+
+.bungkus3 .teks3 {
+    color: #D94B25;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.kotak7 {
+    width: 200px;
+    height: 200px;
+    background-color: #F19C33;
+}
+
+.kotak8 {
+    width: 200px;
+    height: 200px;
+    background-color: #D94B25;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.kotak9 {
+    width: 200px;
+    height: 200px;
+    background-color: #138c82;
+}
+
+.bungkus4 {
+    margin: 20px;
+    padding: 20px;
+    width: 900px;
+    height: 380px;
+    border: 3px solid #D94B25;
+    overflow: auto;
+    position: absolute;
+}
+
+.bungkus4 .teks4 {
+    color: #D94B25;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.kotak10 {
+    width: 200px;
+    height: 200px;
+    background-color: #F19C33;
+    position: absolute;
+    z-index: 3;
+}
+
+.kotak11 {
+    width: 200px;
+    height: 200px;
+    background-color: #D94B25;
+    left: 100px;
+    top: 100px;
+    position: absolute;
+    z-index: 2;
+}
+
+.kotak12 {
+    width: 200px;
+    height: 200px;
+    background-color: #138c82;
+    left: 150px;
+    top: 150px;
+    position: absolute;
+    z-index: 1;
+}
